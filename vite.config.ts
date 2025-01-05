@@ -12,7 +12,6 @@ import { ElementPlusResolver } from 'unplugin-vue-components/resolvers'
 import UnoCSS from 'unocss/vite'
 import Layouts from 'vite-plugin-vue-layouts' // 自动导入布局
 import ReactivityTransform from '@vue-macros/reactivity-transform/vite' // Vue Macros 插件
-
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [
@@ -37,7 +36,7 @@ export default defineConfig({
   ],
   resolve: {
     alias: {
-      '@': fileURLToPath(new URL('./src', import.meta.url))
+      '@': fileURLToPath(new URL('./src', import.meta.url)),
     },
   },
 })

@@ -11,6 +11,8 @@
 - UnoCSS
 - Pinia
 - Vue-Router
+- Vue I18n
+- Vue Macros
 - unplugin-vue-router
 - unplugin-auto-import
 - ESLint
@@ -48,16 +50,6 @@ pnpm dev
 ## 测试
 
 还在开发中...
-
-## 待办
-
-- [ ] 单元测试
-- [ ] 集成测试
-- [ ] 端到端测试
-- [ ] 文档
-- [ ] 部署
-- [ ] 优化
-- [ ] 主题
 
 ## License
 

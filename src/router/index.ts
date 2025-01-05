@@ -5,9 +5,7 @@ import NProgress from '@/utils/nprogress'
 
 export const router = createRouter({
   history: createWebHistory(),
-  routes: setupLayouts([
-    ...routes,
-  ]),
+  routes: setupLayouts([...routes]),
 })
 
 // 路由守卫

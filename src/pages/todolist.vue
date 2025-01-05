@@ -1,19 +1,21 @@
 <template>
-  <h1 class="mb-4 text-2xl">Todo List</h1>
+  <h1 class="mb-4 text-2xl">{{ $t('todolist.title') }}</h1>
   <div class="mb-4">
-    <el-input class="mb-2" v-model="inputTodo" placeholder="Enter todo" />
-    <el-button type="primary" @click="addTodo">Add</el-button>
+    <el-input class="mb-2" v-model="inputTodo" :placeholder="$t('todolist.placeholder')" />
+    <el-button type="primary" @click="addTodo">{{ $t('todolist.add') }}</el-button>
   </div>
   <el-table :data="todoStore.list" class="mt-4">
-    <el-table-column prop="text" label="Todo" />
-    <el-table-column prop="done" label="Done" />
-    <el-table-column label="Actions">
+    <el-table-column prop="text" :label="$t('todolist.item')" />
+    <el-table-column prop="done" :label="$t('todolist.done')" />
+    <el-table-column :label="$t('todolist.action')">
       <template #default="scope">
         <div class="flex flex-col justify-center items-center space-y-2">
           <el-button @click="toggleTodoDone(scope.$index)" type="primary">
-            {{ scope.row.done ? 'Undo' : 'Complete' }}
+            {{ scope.row.done ? $t('todolist.undo') : $t('todolist.complete') }}
           </el-button>
-          <el-button @click="removeTodo(scope.$index)" type="danger">Remove</el-button>
+          <el-button @click="removeTodo(scope.$index)" type="danger">{{
+            $t('todolist.remove')
+          }}</el-button>
         </div>
       </template>
     </el-table-column>

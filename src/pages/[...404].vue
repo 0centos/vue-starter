@@ -1,7 +1,7 @@
 <template>
   <div>
-    <h1>Page not found</h1>
-    <p>The page you are looking for does not exist.</p>
-    <el-button type="primary" @click="$router.back">Go back</el-button>
+    <h1>{{ $t('notfound.title') }}</h1>
+    <p>{{ $t('notfound.message') }}</p>
+    <el-button type="primary" @click="$router.back">{{ $t('notfound.back') }}</el-button>
   </div>
 </template>

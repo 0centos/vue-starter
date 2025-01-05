@@ -1,0 +1,43 @@
+{
+  "sidebar": {
+    "item1": "计数器",
+    "item2": "计时器",
+    "item3": "待办事项",
+    "item4": "设置"
+  },
+  "counter": {
+    "title": "计数器",
+    "countMsg": "计数：",
+    "doubleCountMsg": "双倍计数：",
+    "increment": "增加",
+    "decrement": "减少",
+    "reset": "重置"
+  },
+  "timer": {
+    "title": "计时器",
+    "timeMsg": "时间：",
+    "start": "开始",
+    "stop": "停止",
+    "reset": "重置"
+  },
+  "todolist": {
+    "title": "待办事项",
+    "placeholder": "请输入待办事项",
+    "add": "添加",
+    "item": "条目",
+    "done": "已完成",
+    "action": "操作",
+    "undo": "撤销",
+    "complete": "完成",
+    "remove": "删除"
+  },
+  "settings": {
+    "title": "设置",
+    "language": "语言"
+  },
+  "notfound": {
+    "title": "页面未找到",
+    "message": "抱歉，您访问的页面不存在。",
+    "back": "返回"
+  }
+}

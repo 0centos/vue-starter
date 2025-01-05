@@ -1,0 +1,44 @@
+{
+  "sidebar": {
+    "item1": "Counter",
+    "item2": "Timer",
+    "item3": "Todo List",
+    "item4": "Settings"
+  },
+  "counter": {
+    "title": "Counter",
+    "countMsg": "Count is: ",
+    "doubleCountMsg": "Double Count is: ",
+
+    "increment": "Increment",
+    "decrement": "Decrement",
+    "reset": "Reset"
+  },
+  "timer": {
+    "title": "Timer",
+    "timeMsg": "Time is:",
+    "start": "Start",
+    "stop": "Stop",
+    "reset": "Reset"
+  },
+  "todolist": {
+    "title": "Todo List",
+    "placeholder": "Enter todo",
+    "add": "Add",
+    "item": "Items",
+    "done": "Done",
+    "action": "Actions",
+    "undo": "Undo",
+    "complete": "Complete",
+    "remove": "Remove"
+  },
+  "settings": {
+    "title": "Settings",
+    "language": "Language"
+  },
+  "notfound": {
+    "title": "Page Not Found",
+    "message": "The page you are looking for does not exist.",
+    "back": "Go back"
+  }
+}
